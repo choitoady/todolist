@@ -1,9 +1,14 @@
 import React from "react";
 
-function Image(props) {
+function Image({ imageName, altText }) {
   return (
     <div className="image-container">
-      <img src={props.src} alt={props.name} width={500} height={400}></img>
+      <img
+        src={`${process.env.PUBLIC_URL}/images/${imageName}`}
+        alt={altText}
+        width={500}
+        height={400}
+      ></img>
     </div>
   );
 }

@@ -1,6 +1,12 @@
-.carousel {
-  display: flex;
-  width: 500px; /* 이미지 개수에 따라 변경하세요 */
-  height: 400px;
+.carousel-wrapper {
   overflow: hidden;
+  /* border: 3px solid salmon; */
+  width: 500px;
+  height: 500px;
+}
+.carousel2 {
+  display: flex;
+  transition: transform 1s ease-out;
+  width: 500px;
+  height: 400px;
 }
